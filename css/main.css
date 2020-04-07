@@ -22,14 +22,14 @@ li{
 
 /* Utilities */
 section:nth-child(odd){
-    background:#d0edfc;
+    background:#c9c9c9;
     width: 100%;
     height: 40vh;
     padding: 10px 20px;
 }
 
 section:nth-child(even){
-    background: #ffffff;
+    background: #b4b4b4;
     width: 100%;
     height: 40vh;
     padding: 10px 20px;
@@ -37,8 +37,8 @@ section:nth-child(even){
 
 /* nav */
 .nav {
-    height: 50px;
-    background-color: #0c1bc2;
+    
+    background-color: #0e0d0d;
     color: #ffffff;
 }
 
@@ -47,6 +47,6 @@ section:nth-child(even){
 /* footer */
 .footer {
     height: 50px;
-    background-color: #0c1bc2;
+    background-color: #0e0d0d;
     color: #ffffff;
 }
