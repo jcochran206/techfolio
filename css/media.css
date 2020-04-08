@@ -1,5 +1,5 @@
 /* media queries of smaller screens */
-@media screen and (max-width: 600px){
+@media screen and (min-width: 320px){
     .container {
         display: flex;
         flex-direction: column;
