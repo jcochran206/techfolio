@@ -28,6 +28,11 @@ section {
     
 }
 
+section:nth-child(odd){
+    background-color: #1976d2;
+
+}
+
 
 
 img {
@@ -248,6 +253,10 @@ header {
 
 }
 /* projects */
+.card {
+    
+    
+}
 
 /* about */
 .global-headline {
