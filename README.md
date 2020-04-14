@@ -4,6 +4,9 @@
 - CSS 
 - JS (ES6)
 ## Dependencies
-- animate.css
+- n/a
 ## Author :video_game:
 Jonathan Cochran
+## live repo
+[Techfolio](https://jcochran206.github.io/Thinkful-Quiz-App/)
+
