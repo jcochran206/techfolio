@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jonathan Cochran | Fullstack Web developer</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Jonathan Cochran | Full Stack Engineer</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Pacifico&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e0c76997cd.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -13,86 +13,51 @@
         <div class="container">
             <nav class="nav">
                 <div class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                    <i class="fas fa-times"></i>
+                    toggle goes here 
                 </div>
-                <a href="index.html" class="logo">LOGO</a>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link">PROJECTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#aboutme" class="nav-link">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">CONTACT</a>
-                    </li>
-                </ul>
             </nav>
         </div>
-    </header> <!--header-->
+    </header> <!--header ends -->
 
-    <section class="hero" id="hero">
+    <section class="hero">
         <div class="container">
-            <h2 class="sub-headline">
-                <span class="first-letter">H</span>ello
-            </h2>
-            <h1 class="headline">I am Jonathan Cochran</h1>
+            <h1 class="headline">Hi, I am Jonathan Cochran</h1>
             <div class="headline-description">
                 <div class="separator">
                     <div class="line line-left"></div>
                     <div class="asterisk"><i class="fas fa-asterisk"></i></div>
                     <div class="line line-right"></div>
                 </div>
-                <h5> Full Stack Web Developer</h5>
+                <h2 class="sub-headline"> Full Stack Web Developer</h2>
             </div>
-            <a href="#" class="btn cta-btn"> learn more</a>
+            <a href="#" class="btn cta-btn">Learn more</a>
+            <a href="#" class="btn cta-btn">Contact me</a>
         </div>
-    </section>
-    <section class="projects" id="projects">
+        </div> 
+    </section>   <!-- hero section ends-->
+
+    <section class="projects">
         <div class="container">
-            <div class="project-info">
-                <div class="global-headline">
-                    <h2 class="sub-headline">
-                        <span class="first-letter">P</span>rojects
+            <div class="divider">
+                <div class="section-headline">
+                    <h2 class="section-headline">
+                        Projects
                     </h2>
-                    <h1 class="headline"> MY WORK </h1>
-                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                </div>  
+            </div>
+
+            <div class="card">
+                <div class="card-left-top">
+                    <img src="img/quizapp.png" alt="Quiz app" class="card-img">
                 </div>
-                    <!--cards for project-->
-                <div class="card">
-                    <div class="card-left-top">
-                      <img class="card-img" src="img/quizapp.png" alt="">
-                    <ul class="social-list">
-                      <li class="social-item">
-                        <a href="https://github.com/jcochran206/Thinkful-Quiz-App" class="social-link">
-                          <i class="fab fa-github fa-3x" aria-labelledby="github site quiz app"></i>
-                        </a>
-                      </li>
-                      <li class="social-item">
-                        <a href="https://jcochran206.github.io/Thinkful-Quiz-App/" class="social-link">
-                            <i class="fas fa-globe-americas fa-3x" aria-labelledby="live website for quiz app"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="card-main">
-                    <h2 class="card-title">
-                      Marvel quiz app
-                    </h2>
-                    <h3>Description:</h3>
-                    <p class="decription">
-                      This Quiz app is based on testing the users knowledge on the MCU or Marvel Cinematic Universe.  The applications pulls from an internal JSON object.  
-                      <br> 
-                      Key Features are: <br>
-                      - user feedback on correct answers<br>
-                      - random question generated<br>
-                      - hud score and question tracking<br> 
+
+                <div class="card-main">
+                    <h3>Title: Quiz App</h3>
+                    <h4>Description: </h4>
+                    <p class="card-desc"> 
+                        blah blah blah Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, a? Repellat ullam aspernatur inventore aliquid quae rerum itaque, magnam sit facilis. Similique veritatis vitae sit quasi pariatur. Aliquam, quis necessitatibus?
                     </p>
-                    <h3>Technologies used: </h3>
+                    <h3>Technologies used and links to source code: </h3>
                     <ul class="tech-list">
                         <li class="tech-item">
                             <i class="fab fa-html5 fa-3x"></i>
@@ -103,50 +68,86 @@
                         <li class="tech-item">
                             <i class="fab fa-js fa-3x"></i>
                         </li>
+                        <li class="tech-item">
+                            <a href="https://jcochran206.github.io/Thinkful-Quiz-App/" class="tech-link">
+                                <i class="fas fa-globe-americas fa-3x" aria-label="website"></i>
+                            </a>
+                        </li>
+                        <li class="tech-item">
+                        <a href="https://github.com/jcochran206/Thinkful-Quiz-App" class="social-link">
+                            <i class="fab fa-github fa-3x" aria-label="github repo"></i>
+                        </a>
+                        </li>
                     </ul>
-
-                    </div>
-                </div> <!--card ends-->
+                    
+                </div>
 
             </div>
         </div>
-    </section> <!-- projects section ends -->
+    </section> <!-- projects section -->
 
-    <section class="aboutme" id="aboutme">
+    <section class="aboutme">
         <div class="container">
-            <div class="aboutme-info">
-                
-                    <div class="global-headline">
-                        <h2 class="sub-headline">
-                            <span class="first-letter">A</span>bout Me
-                        </h2>
-                        <h1 class="headline headline-dark">My Story</h1>
-                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
-                    </div>
+            <div class="divider">
+                <div class="section-headline">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="aboutme-container">
+                <div class="aboutme-info-img">
+                    <img src="img/guy1.jpg" alt="Jon">
+                </div>
 
-                    <div class="aboutme-divider">
-                    <div class="aboutme-info-img">
-                        <img src="img/guy1.jpg" alt="Jon">
-                    </div>
-                    <div class="aboutme-desc">
-                    <p class="aboutme-details">Hi there! My name is Jonathan.  I am a full stack developer, product/project manager, and overall problem solver in the greater Seattle/Tacoma area.  <br><br>
+                <p class="aboutme-details">Hi there! My name is Jonathan.  I am a full stack developer, product/project manager, and overall problem solver in the greater Seattle/Tacoma area.  <br><br>
 
-                        I enjoy coding because I find satisfaction in taking customer ideas, constructing a plan, and delivering them product.  I enjoy solving problems and working with other devs on projects to see different ways to solve problems.<br> <br>
-                        
-                        When I am not coding, I enjoy spending my time with my buddies and playing COD or some RPG like FF7.  I am a fair-weather jogger and gym goer.  I am also a foodie.
-                        
-                    </p>
-                    <a href="#" class="btn body-btn"> Learn More</a>
+                    I enjoy coding because I find satisfaction in taking customer ideas, constructing a plan, and delivering them a working product.  I enjoy solving problems and working with other devs on projects to see the different ways to solve problems.<br> <br>
+                    
+                    When I am not coding, I enjoy spending my time with my buddies and playing COD or some RPG like FF7.  I am a fair-weather jogger and gym goer.  I am also a foodie.
+                    
+                </p>
 
-                    </div>
-                    </div>
+            </div>
+
+
+        </div>
+    </section> <!--about me section -->
+
+    <section class="contact">
+        <div class="container">
+            <div class="divider">
+                <div class="section-headline">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+
+            <div class="contact-main">
+                <h2>Want to get in touch?</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <a href="mailto:someone@example.com" class="social-link" target="_blank">
+                            <i class="fas fa-envelope fa-5x" aria-label="github repo"></i>
+                        </a>
+                    </li>
+                    <li class="contact-item">
+                        <a href="https://www.linkedin.com/in/jonathan-cochran-ms/" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin fa-5x"></i>
+                        </a>
+                    </li>
+                    <li class="contact-item">
+                        <a href="https://github.com/jcochran206" class="social-link" target="_blank">
+                            <i class="fab fa-github-alt fa-5x"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section> <!--about section ends -->
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-    <script src="js/app.js"></script>
+        
+    </section>
+
+    <footer class="footer">
+        MADE BY JONATHAN COCHRAN &#169;2020 
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
