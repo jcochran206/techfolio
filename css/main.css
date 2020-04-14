@@ -50,7 +50,7 @@ a {
 }
 
 a:link {
-    color: #fff;
+    color: var(--primary-color);
 }
 
 
