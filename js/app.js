@@ -1,15 +1,15 @@
-function toggler(){ 
-    $('.menu-toggle').on('click', function(){
-        $('body').toggleClass('open');
-    });
-}
+// function toggler(){ 
+//     $('.menu-toggle').on('click', function(){
+//         $('body').toggleClass('open');
+//     });
+// }
 
 
-function init(){
-    toggler();
-}
+// function init(){
+//     toggler();
+// }
 
-init();
+// init();
 
 
     

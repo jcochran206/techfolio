@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jonathan Cochran | Full Stack Engineer</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Pacifico&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e0c76997cd.js" crossorigin="anonymous"></script>
 </head>
@@ -13,8 +13,23 @@
         <div class="container">
             <nav class="nav">
                 <div class="menu-toggle">
-                    toggle goes here 
+                    hamburger here
                 </div>
+                <a href="index.html" class="logo">LOGO</a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#aboutme" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header> <!--header ends -->
@@ -30,20 +45,20 @@
                 </div>
                 <h2 class="sub-headline"> Full Stack Web Developer</h2>
             </div>
-            <a href="#" class="btn cta-btn">Learn more</a>
-            <a href="#" class="btn cta-btn">Contact me</a>
+            <a href="#aboutme" class="btn cta-btn">Learn more</a>
+            <a href="#contact" class="btn cta-btn">Contact me</a>
         </div>
         </div> 
     </section>   <!-- hero section ends-->
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="container">
             <div class="divider">
-                <div class="section-headline">
-                    <h2 class="section-headline">
-                        Projects
-                    </h2>
-                </div>  
+                
+                    <div class="section-headline">
+                        <h2>Projects</h2>
+                    </div>
+                 
             </div>
 
             <div class="card">
@@ -86,7 +101,7 @@
         </div>
     </section> <!-- projects section -->
 
-    <section class="aboutme">
+    <section class="aboutme" id="aboutme">
         <div class="container">
             <div class="divider">
                 <div class="section-headline">
@@ -100,9 +115,9 @@
 
                 <p class="aboutme-details">Hi there! My name is Jonathan.  I am a full stack developer, product/project manager, and overall problem solver in the greater Seattle/Tacoma area.  <br><br>
 
-                    I enjoy coding because I find satisfaction in taking customer ideas, constructing a plan, and delivering them a working product.  I enjoy solving problems and working with other devs on projects to see the different ways to solve problems.<br> <br>
+                    I enjoy coding because I find satisfaction in taking customer ideas, constructing a plan, and delivering them a working product.  I enjoy solving problems and working with other devs on projects to see the eloquent ways we can solve problems.<br> <br>
                     
-                    When I am not coding, I enjoy spending my time with my buddies and playing COD or some RPG like FF7.  I am a fair-weather jogger and gym goer.  I am also a foodie.
+                    When I am not coding, I enjoy spending my time with my friends and playing a couple rounds COD or some Final Fantasy 7.  I am a fair-weather jogger and gym goer.  I am also a foodie.
                     
                 </p>
 
@@ -112,7 +127,7 @@
         </div>
     </section> <!--about me section -->
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="divider">
                 <div class="section-headline">
@@ -148,6 +163,6 @@
         MADE BY JONATHAN COCHRAN &#169;2020 
     </footer>
 
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
