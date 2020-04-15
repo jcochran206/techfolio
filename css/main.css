@@ -54,12 +54,12 @@ a:visited {
 }
 
 a:link {
-    color: var(--primary-color);
+    color: #fff;
 }
 
 
 a:hover {
-    color: var(--dark-primary-color);
+    color: #fff;
 }
 
 .container{
